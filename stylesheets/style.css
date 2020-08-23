@@ -1,0 +1,32 @@
+.text-extra-large {
+    font-size: 8em;
+    font-weight: bolder;
+}
+
+.text-large {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.text-medium {
+    font-size: 1.3em;
+}
+
+.padding-large {
+    padding: 3em;
+}
+
+.margin-bottom-large {
+    margin-bottom: 3em;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8em;
+}
+
+.naira-symbol::after {
+    content: 'N';
+    text-decoration: line-through;
+    text-decoration-style: double;
+}
